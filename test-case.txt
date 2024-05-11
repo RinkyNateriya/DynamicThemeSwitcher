@@ -1,0 +1,16 @@
+1. renders light theme by default: Upon loading the component, it's expected to initialize with the default light theme. 
+This test verifies that the component renders with the correct initial styles, corresponding to the light theme.
+
+2.switches to dark theme when Dark Theme button is clicked: The test checks the functionality of the "Dark Theme" button
+ by simulating a user click event. Upon clicking the button, the component should switch to the dark theme, and this test
+  ensures that the appropriate styles are applied accordingly.
+
+3.updates custom theme colors when color inputs are changed: This test evaluates the behavior of the color inputs. When
+ users modify the color values using the input fields, the component's custom theme should dynamically update to reflect 
+ these changes. The test ensures that the component reacts appropriately to user input and updates the styles accordingly.
+
+4.calls window.location.reload when Reload button is clicked: This test validates the behavior of the "Reload" button.
+ When users click this button, the expected action is to reload the entire window or page. This test verifies that the 
+ reload functionality is triggered upon clicking the button, ensuring that the application resets to its initial state
+  as intended.
+
