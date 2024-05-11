@@ -1,0 +1,5 @@
+.themewraper{
+  justify-content: center;
+    display: flex;
+    gap: 9px;
+}
